@@ -48,7 +48,20 @@ def validateRow(line, row):
     row[3] = validateArea(line, area, areaMap)
     user = row[11]
     row[11] = validateUser(line, user, userMap)
-    
+
+    # Validate labor input
+    labor = row[8]
+    if labor.strip() != '' and not isNumeric(labor):
+        print(f"Invalid labor input at line {line}. Ignoring labor data.")
+        row[8] = ''
+
+def isNumeric(value):
+    try:
+        float(value)
+        return True
+    except ValueError:
+        return False
+
 def addPlanting(row):
     planting = {
         "name": row[1] + " " + row[2] + " " + row[3],
