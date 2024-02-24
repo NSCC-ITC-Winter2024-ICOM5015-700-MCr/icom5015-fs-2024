@@ -20,7 +20,7 @@ If you are unfamiliar with [Zulip](https://zulip.com/) it is a group chat applic
 
 There are many ways to participate in FarmData2. Some of them are listed below.  
 
-Having a running version of FarmData2 is a prerequisite for many of the forms of participation.  The [Install Directions] give step by step instructions for getting FarmData2 up and running.
+Having a running version of FarmData2 is a prerequisite for many of the forms of participation.  The [Install Directions] give step-by-step instructions for getting FarmData2 up and running.
 
 [Install Directions]: INSTALL.md
 
@@ -82,7 +82,7 @@ As a reference, the basic steps for working with GitHub Flow are as follows:
   * Fork the _upstream_ repository to your GitHub (the _origin_).
   * [Clone] the _origin_ repository to your local machine.
   * Set the  _upstream_ remote for your local repository to point to the _upstream_ repository.
-  * Create a _feature branch_ from the _main_ branch your local machine.
+  * Create a _feature branch_ from the _main_ branch on your local machine.
   * Make the edits to the documentation or the code in your _feature branch_.
   * Commit your edits.
     * If the contribution reflects the work of multiple people, ensure that everyone receives attribution by [Creating a commit with multiple authors].
